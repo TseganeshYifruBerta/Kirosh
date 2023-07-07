@@ -17,6 +17,9 @@ module.exports = {
         "primary-color" : "#000000",
         "card-bg" : "#F7F4F4",
         
+      },
+      fontFamily: {
+        'primary-font': ['Chela One', 'Helvetica', 'Arial', 'sans-serif'],
       }
     },
   },
