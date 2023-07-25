@@ -1,0 +1,63 @@
+ [
+    {
+      "name": "John Doe",
+      "address": "123 Main Street, Cityville, USA",
+      "bio": "John Doe is a talented designer with a passion for creating stunning visual experiences.",
+      "id": 1
+    },
+    {
+      "name": "Jane Smith",
+      "address": "456 Park Avenue, Townsville, USA",
+      "bio": "Jane Smith is an innovative designer known for pushing the boundaries of design.",
+      "id": 2
+    },
+    {
+      "name": "Michael Lee",
+      "address": "789 Oak Road, Villageland, USA",
+      "bio": "Michael Lee is a seasoned designer with a diverse portfolio of successful projects.",
+      "id": 3
+    },
+    {
+      "name": "Emily Johnson",
+      "address": "321 Elm Court, Countryside, USA",
+      "bio": "Emily Johnson is a passionate designer who loves creating user-centered designs.",
+      "id": 4
+    },
+    {
+      "name": "Daniel Kim",
+      "address": "987 Pine Lane, Mountainview, USA",
+      "bio": "Daniel Kim is a UX/UI designer with a keen eye for detail and usability.",
+      "id": 5
+    },
+    {
+      "name": "Sophia Chen",
+      "address": "654 Maple Street, Riverside, USA",
+      "bio": "Sophia Chen is a graphic designer with a flair for creating captivating visuals.",
+      "id": 6
+    },
+    {
+      "name": "William Adams",
+      "address": "234 Birch Avenue, Lakeside, USA",
+      "bio": "William Adams is a web designer specializing in creating responsive and modern websites.",
+      "id": 7
+    },
+    {
+      "name": "Olivia Rodriguez",
+      "address": "876 Cedar Road, Seaside, USA",
+      "bio": "Olivia Rodriguez is an artist and illustrator known for her unique style and creativity.",
+      "id": 8
+    },
+    {
+      "name": "James Wilson",
+      "address": "543 Redwood Drive, Forestville, USA",
+      "bio": "James Wilson is a product designer who loves solving complex design challenges.",
+      "id": 9
+    },
+    {
+      "name": "Ava Brown",
+      "address": "765 Willow Lane, Valleytown, USA",
+      "bio": "Ava Brown is a fashion designer with a passion for creating sustainable and stylish clothing.",
+      "id": 10
+    }
+  ]
+  

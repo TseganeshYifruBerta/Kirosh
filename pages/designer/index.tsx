@@ -1,9 +1,15 @@
-import Designers from "@/components/designers/designers";
+import Search from "@/components/common/Search";
+import DesignersList from "@/components/designers/DesignersList";
 
 function DesignersPage()  {
     return (
         <div>
-<Designers />
+            <div className="flex flex-wrap justify-center"> 
+                <Search />
+            </div>
+            <div>
+                <DesignersList />
+            </div>
         </div>
     )
 }
