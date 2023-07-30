@@ -2,19 +2,21 @@ import { designer1 } from "@/public";
 import { mdiStar } from "@mdi/js";
 import Image from "next/image";
 import { Icon } from "@mdi/react";
+import Link from "next/link";
 interface DesignerProps {
   name: string,
   address: string,
   bio: string,
-  id: number
+  imgurl: string,
 }
-const SingleDesignerCard: React.FC<DesignerProps> = ({name, address, bio, id}) => {
+const SingleDesignerCard: React.FC<DesignerProps> = ({name, address, bio, imgurl}) => {
   return (
+    <Link href={"/designer/id"}>
     <div className="flex flex-wrap">
       <div className="w-1/2 lg:h-[300px]">
           <div className="relative w-full h-full">
             <Image
-              src={designer1}
+              src={imgurl}
               alt="designer"
               layout="fill"
               objectFit="cover"
@@ -49,6 +51,7 @@ const SingleDesignerCard: React.FC<DesignerProps> = ({name, address, bio, id}) =
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 

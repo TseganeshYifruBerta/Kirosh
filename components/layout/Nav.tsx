@@ -9,29 +9,25 @@ const Nav: React.FC = () => {
         setMenu(!menu);
     }
   return (
-    <div className="flex flex-wrap border-b-2 border-gray-400">
-     <div className="flex flex-wrap w-3/6 font-bold max-sm:hidden max-lg:text-sm">
+<div className="sticky flex top-0 items-center h-full justify-between px-5 z-50 bg-white py-2 shadow-sm border-b-2 border-gray-100">
+     <div className="flex flex-wrap w-3/6 font-bold max-sm:hidden max-lg:text-sm pb-0">
         <div className="w-1/4 flex flex-wrap">
-          <span className="w-1/2 flex flex-wrap justify-center text-primary">HOME</span>
-          <span className="w-1/2 flex flex-wrap justify-center">/</span>
+          <Link href={"/"}><span className="w-full flex flex-wrap justify-center text-primary pl-6">HOME</span></Link>
         </div>
         <div className="w-1/4 flex flex-wrap">
-          <span className="w-1/2 flex flex-wrap justify-center">DESIGNERS</span>
-          <span className="w-1/2 flex flex-wrap justify-center">/</span>
+          <Link href={"/designer"}><span className="w-full flex flex-wrap justify-center">DESIGNERS</span></Link>
         </div>
         <div className="w-1/4 flex flex-wrap">
-          <span className="w-1/2 flex flex-wrap justify-center">STORIES</span>
-          <span className="w-1/2 flex flex-wrap justify-center">/</span>
+          <Link href={""}><span className="w-full flex flex-wrap justify-center">STORIES</span></Link>
         </div>
 
         <div className="w-1/4 flex flex-wrap">
-          <span className="w-1/2 flex flex-wrap justify-center">EVENTS</span>
-          <span className="w-1/2 flex flex-wrap justify-center">/</span>
+          <Link href={""}><span className="w-full flex flex-wrap justify-center">EVENTS</span></Link>
         </div>
       </div>
       
       <div className="max-sm:w-5/6 w-3/6 self-center">
-        <span className="flex flex-wrap justify-end max-sm:justify-start text-4xl text-primary font-extrabold font-primary-font">KIROSH</span>
+        <span className="flex flex-wrap justify-end max-sm:justify-start max-sm:text-2xl sm:text-5xl text-primary font-extrabold font-primary-font">KIROSH</span>
       </div>
       <div className="max-sm:w-1/6 flex flex-wrap">
       <button onClick={handleSetMenu} className={`max-sm:block hidden flex flex-wrap self-center ml-4 hover:text-gray-900 w-full`}>
@@ -51,10 +47,10 @@ const Nav: React.FC = () => {
                   </button>
                 </div>
                 <div>
-                  <div className="border-b-2 p-2 pb-0"><button><span>HOME</span></button></div>
-                 <div className="border-b-2 p-2 pb-0"> <button><span>DESIGNERS</span></button></div>
-                  <div className="border-b-2 p-2 pb-0"><button><span>STORIES</span></button></div>
-                  <div className="border-b-2 p-2 pb-0"><button><span>EVENTS</span></button></div>
+                  <div className="p-2 pb-0"><button><span>HOME</span></button></div>
+                 <div className="p-2 pb-0"> <button><span>DESIGNERS</span></button></div>
+                  <div className="p-2 pb-0"><button><span>STORIES</span></button></div>
+                  <div className="p-2 pb-0"><button><span>EVENTS</span></button></div>
                 </div>
                 
               </div>
