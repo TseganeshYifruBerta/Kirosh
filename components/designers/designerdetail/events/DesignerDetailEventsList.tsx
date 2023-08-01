@@ -5,7 +5,7 @@ const EventsList : React.FC = () => {
         <div>
             {Events.map((event) => (
                 <div key={event.id}>
-                    <SingleEventCard img={event.imgurl} description={event.description} date={event.date} location={event.location} />
+                    <SingleEventCard img={event.imgurl} description={event.description} date={event.date} location={event.location} eventName={event.eventName} />
                 </div>
             ))}
         </div>

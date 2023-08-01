@@ -1,6 +1,6 @@
 import Search from "@/components/common/Search";
 import DesignersList from "@/components/designers/DesignersList";
-import DesignerDetailGallery from "@/components/designers/designerdetail/DesignersDetailGallery";
+import DesignerDetailGallery from "@/components/designers/designerdetail/gallery/DesignersDetailGallery";
 
 function DesignersPage() {
   return (
