@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "eventName": "Fun Day of Hiking and Exploration",
+    "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJe6DcjG7FHk8X-3vwH7lPyhBXyHljdiMGsg&usqp=CAU",
+    "description": "Join us for a fun day of hiking and exploring the great outdoors!",
+    "location": "Redwood National Park, California",
+    "date": "2023-08-15"
+  },
+  {
+    "id": 2,
+    "eventName": "Wine Tasting and Live Music",
+    "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnaYbSv2TFKgRn8glSEtNROxeMBKlPI0X0SA&usqp=CAU",
+    "description": "Come taste the best wines in the region and enjoy live music!",
+    "location": "Napa Valley, California",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 3,
+    "eventName": "Web Development Trends and Technologies",
+    "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykFIMxLbkd5LbNJRfDL5EuWPOTz8PbhjTsA&usqp=CAU",
+    "description": "Learn about the latest trends and technologies in web development!",
+    "location": "San Francisco, California",
+    "date": "2023-09-15"
+  },
+  {
+    "id": 4,
+    "eventName": "Annual Winter Festival",
+    "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaHcDhsYAuzZE3_aIg3A5BlOGb95C3xUcPjw&usqp=CAU",
+    "description": "Experience the magic of the holiday season at our annual winter festival!",
+    "location": "Central Park, New York City",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 5,
+    "eventName": "Summer Carnival",
+    "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI3V1HPrTF9ugmETki6GfajEzFaLyAOwEzu20MsMhhcioPWT3dkwKnHBnyE-IHQr6D0H0&usqp=CAU",
+    "description": "Join us for a day of fun and games at our annual summer carnival!",
+    "location": "Santa Monica Pier, California",
+    "date": "2024-06-15"
+  },
+  {
+    "id": 6,
+    "eventName": "Annual Gala - Night of Dancing and Entertainment",
+    "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgKHIA8C4uslsJ32OZTcw87bsd1LKo4YwRqOpiVvSK6O9KnLWhAPf96fUZB3uP_F3PJAQ&usqp=CAU",
+    "description": "Get ready for a night of dancing and entertainment at our annual gala!",
+    "location": "The Plaza Hotel, New York City",
+    "date": "2024-10-01"
+  }
+]
