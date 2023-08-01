@@ -3,6 +3,7 @@ import { designer1 } from "@/public";
 import { mdiStar } from "@mdi/js";
 import Image from "next/image"
 import { Icon } from "@mdi/react";
+import EventsList from "@/components/event/EventsList";
 
 function DesignerDetail()  {
   return (
@@ -54,8 +55,11 @@ function DesignerDetail()  {
         <div className="w-1/6">Contact</div>
       </div>
      </div>
-      <div>
+      {/* <div>
         <DesignerDetailGallery />
+      </div> */}
+      <div>
+        <EventsList />
       </div>
     </div>
   );
