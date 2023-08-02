@@ -3,6 +3,7 @@ import { mdiStar } from "@mdi/js";
 import Image from "next/image";
 import { Icon } from "@mdi/react";
 import Link from "next/link";
+import FollowButton from "../common/FollowButton";
 interface DesignerProps {
   name: string,
   address: string,
@@ -47,9 +48,7 @@ const SingleDesignerCard: React.FC<DesignerProps> = ({name, address, bio, imgurl
           </span>
         </div>
         <div className="flex flex-wrap justify-end h-[30px]">
-          <button className="flex flex-wrap justify-center rounded-lg self-end bg-primary sm:w-3/5 w-2/5 text-sm font-bold max-sm:p-1 p-2">
-            <span>+ Follow</span>
-          </button>
+          <FollowButton />
         </div>
       </div>
     </div>

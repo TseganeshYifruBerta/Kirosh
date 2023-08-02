@@ -5,7 +5,7 @@ import Image from "next/image"
 import { Icon } from "@mdi/react";
 import EventsList from "@/components/designers/designerdetail/events/DesignerDetailEventsList";
 import ContactDetail from "@/components/designers/designerdetail/contact/DesignerDetailContact";
-import CommonDetail from "@/components/designers/designerdetail/Detail";
+import CommonDetail from "@/components/designers/designerdetail/DesignerDetail";
 
 function DesignerDetail()  {
   return (
