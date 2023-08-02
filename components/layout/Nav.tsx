@@ -18,11 +18,11 @@ const Nav: React.FC = () => {
           <Link href={"/designer"}><span className="w-full flex flex-wrap justify-center">DESIGNERS</span></Link>
         </div>
         <div className="w-1/4 flex flex-wrap">
-          <Link href={""}><span className="w-full flex flex-wrap justify-center">STORIES</span></Link>
+          <Link href={"/stories"}><span className="w-full flex flex-wrap justify-center">STORIES</span></Link>
         </div>
 
         <div className="w-1/4 flex flex-wrap">
-          <Link href={""}><span className="w-full flex flex-wrap justify-center">EVENTS</span></Link>
+          <Link href={"/events"}><span className="w-full flex flex-wrap justify-center">EVENTS</span></Link>
         </div>
       </div>
       
