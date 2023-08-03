@@ -1,7 +1,8 @@
-import Events from "@/data/designers/events.json";
-import SingleEventCard from "../../../common/SingleEventCard";
+import Events from "@/data/designers/events.json"
+import SingleEventCard from "../common/SingleEventCard"
+
 const EventsList : React.FC = () => {
-    return(
+    return (
         <div>
             {Events.map((event) => (
                 <div key={event.id}>
@@ -12,4 +13,4 @@ const EventsList : React.FC = () => {
     )
 }
 
-export default EventsList;
+export default EventsList

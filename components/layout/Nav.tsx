@@ -5,24 +5,28 @@ import { useState } from "react";
 
 const Nav: React.FC = () => {
     const [menu, setMenu] = useState(false)
+    const [navigate, setNavigate] = useState("home")
     const handleSetMenu = () => {
         setMenu(!menu);
+    }
+    const handleNavigation = (section : string) => {
+      setNavigate(section)
     }
   return (
 <div className="sticky flex top-0 items-center h-full justify-between px-5 z-50 bg-white py-2 shadow-sm border-b-2 border-gray-100">
      <div className="flex flex-wrap w-3/6 font-bold max-sm:hidden max-lg:text-sm pb-0">
         <div className="w-1/4 flex flex-wrap">
-          <Link href={"/"}><span className="w-full flex flex-wrap justify-center text-primary pl-6">HOME</span></Link>
+          <Link href={"/"}><span className={`w-full flex flex-wrap justify-center pl-6 ${navigate === "home" ? "text-primary" : ""}`} onClick={() => handleNavigation("home")}>HOME</span></Link>
         </div>
         <div className="w-1/4 flex flex-wrap">
-          <Link href={"/designer"}><span className="w-full flex flex-wrap justify-center">DESIGNERS</span></Link>
+          <Link href={"/designer"}><span className={`w-full flex flex-wrap justify-center ${navigate == "designers" ? "text-primary" : ""}`} onClick={() => handleNavigation("designers")}>DESIGNERS</span></Link>
         </div>
         <div className="w-1/4 flex flex-wrap">
-          <Link href={"/stories"}><span className="w-full flex flex-wrap justify-center">STORIES</span></Link>
+          <Link href={"/stories"}><span className={`w-full flex flex-wrap justify-center ${navigate == "stories" ? "text-primary" : ""}`} onClick={() => handleNavigation("stories")}>STORIES</span></Link>
         </div>
 
         <div className="w-1/4 flex flex-wrap">
-          <Link href={"/events"}><span className="w-full flex flex-wrap justify-center">EVENTS</span></Link>
+          <Link href={"/events"}><span className={`w-full flex flex-wrap justify-center ${navigate == "events" ? "text-primary" : ""}`} onClick={() => handleNavigation("events")}>EVENTS</span></Link>
         </div>
       </div>
       
